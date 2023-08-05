@@ -1,0 +1,12 @@
+//RIGHT SHIFT
+
+let n=00000000000000000000000000001011;
+let count=0;
+for (let i=0; i<=31; i++)
+{
+  if((n>>i)&1==1) //to make 1 bit value
+  {
+    count=count+1;
+  }
+}
+console.log(count);
